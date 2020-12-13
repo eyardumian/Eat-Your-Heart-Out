@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF10110125702E3C00F9E680 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF10110025702E3C00F9E680 /* UILabel.swift */; };
+		BF1011032570379900F9E680 /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1011022570379900F9E680 /* ButtonWithImage.swift */; };
+		BF10110525703C3400F9E680 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF10110425703C3400F9E680 /* TabController.swift */; };
+		BF293C31256F36C500FE06A3 /* DirectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF293C30256F36C500FE06A3 /* DirectionsCell.swift */; };
+		BF6D2FA0256C7895003D8922 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D2F9F256C7895003D8922 /* FavoritesViewController.swift */; };
+		BF6D2FA6256C84E4003D8922 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D2FA5256C84E4003D8922 /* FavoritesCell.swift */; };
+		BF9016112569994E00F8CDDB /* GroceryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9016102569994E00F8CDDB /* GroceryListViewController.swift */; };
+		BF9016132569A2F600F8CDDB /* GroceryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9016122569A2F600F8CDDB /* GroceryListCell.swift */; };
+		BF98AB432567507100821FBB /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98AB422567507100821FBB /* IngredientsCell.swift */; };
 		BFB7FF272564C7CA00C0BE19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FF262564C7CA00C0BE19 /* AppDelegate.swift */; };
 		BFB7FF292564C7CA00C0BE19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FF282564C7CA00C0BE19 /* ViewController.swift */; };
 		BFB7FF2C2564C7CA00C0BE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7FF2A2564C7CA00C0BE19 /* Main.storyboard */; };
 		BFB7FF2E2564C7CB00C0BE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB7FF2D2564C7CB00C0BE19 /* Assets.xcassets */; };
 		BFB7FF312564C7CB00C0BE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7FF2F2564C7CB00C0BE19 /* LaunchScreen.storyboard */; };
+		BFDBCEFC256F5C5F00FECF03 /* DirectionsLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBCEFB256F5C5F00FECF03 /* DirectionsLabelCell.swift */; };
+		BFF8955E2565FCA700174CFB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8955D2565FCA700174CFB /* RecipeCell.swift */; };
+		BFF89560256623A700174CFB /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8955F256623A700174CFB /* RecipeViewController.swift */; };
+		BFF89564256624FB00174CFB /* RecipeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF89563256624FB00174CFB /* RecipeDetailCell.swift */; };
+		BFF89568256625B700174CFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF89567256625B700174CFB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF10110025702E3C00F9E680 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		BF1011022570379900F9E680 /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		BF10110425703C3400F9E680 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		BF293C30256F36C500FE06A3 /* DirectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsCell.swift; sourceTree = "<group>"; };
+		BF6D2F9F256C7895003D8922 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		BF6D2FA5256C84E4003D8922 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		BF9016102569994E00F8CDDB /* GroceryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListViewController.swift; sourceTree = "<group>"; };
+		BF9016122569A2F600F8CDDB /* GroceryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListCell.swift; sourceTree = "<group>"; };
+		BF98AB422567507100821FBB /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
 		BFB7FF232564C7CA00C0BE19 /* EatYourHeartOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatYourHeartOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB7FF262564C7CA00C0BE19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB7FF282564C7CA00C0BE19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,11 @@
 		BFB7FF2D2564C7CB00C0BE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB7FF302564C7CB00C0BE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB7FF322564C7CB00C0BE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDBCEFB256F5C5F00FECF03 /* DirectionsLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsLabelCell.swift; sourceTree = "<group>"; };
+		BFF8955D2565FCA700174CFB /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		BFF8955F256623A700174CFB /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		BFF89563256624FB00174CFB /* RecipeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailCell.swift; sourceTree = "<group>"; };
+		BFF89567256625B700174CFB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +82,23 @@
 		BFB7FF252564C7CA00C0BE19 /* EatYourHeartOut */ = {
 			isa = PBXGroup;
 			children = (
+				BFF89567256625B700174CFB /* DetailViewController.swift */,
 				BFB7FF262564C7CA00C0BE19 /* AppDelegate.swift */,
 				BFB7FF282564C7CA00C0BE19 /* ViewController.swift */,
+				BFF8955F256623A700174CFB /* RecipeViewController.swift */,
+				BF10110025702E3C00F9E680 /* UILabel.swift */,
+				BF1011022570379900F9E680 /* ButtonWithImage.swift */,
+				BFDBCEFB256F5C5F00FECF03 /* DirectionsLabelCell.swift */,
 				BFB7FF2A2564C7CA00C0BE19 /* Main.storyboard */,
+				BF10110425703C3400F9E680 /* TabController.swift */,
+				BF6D2F9F256C7895003D8922 /* FavoritesViewController.swift */,
+				BF9016102569994E00F8CDDB /* GroceryListViewController.swift */,
+				BF9016122569A2F600F8CDDB /* GroceryListCell.swift */,
+				BF98AB422567507100821FBB /* IngredientsCell.swift */,
+				BF293C30256F36C500FE06A3 /* DirectionsCell.swift */,
+				BFF89563256624FB00174CFB /* RecipeDetailCell.swift */,
+				BF6D2FA5256C84E4003D8922 /* FavoritesCell.swift */,
+				BFF8955D2565FCA700174CFB /* RecipeCell.swift */,
 				BFB7FF2D2564C7CB00C0BE19 /* Assets.xcassets */,
 				BFB7FF2F2564C7CB00C0BE19 /* LaunchScreen.storyboard */,
 				BFB7FF322564C7CB00C0BE19 /* Info.plist */,
@@ -135,7 +177,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF89560256623A700174CFB /* RecipeViewController.swift in Sources */,
+				BFF89564256624FB00174CFB /* RecipeDetailCell.swift in Sources */,
+				BF9016112569994E00F8CDDB /* GroceryListViewController.swift in Sources */,
+				BFF8955E2565FCA700174CFB /* RecipeCell.swift in Sources */,
+				BF6D2FA6256C84E4003D8922 /* FavoritesCell.swift in Sources */,
+				BFDBCEFC256F5C5F00FECF03 /* DirectionsLabelCell.swift in Sources */,
+				BF9016132569A2F600F8CDDB /* GroceryListCell.swift in Sources */,
+				BF6D2FA0256C7895003D8922 /* FavoritesViewController.swift in Sources */,
+				BFF89568256625B700174CFB /* DetailViewController.swift in Sources */,
+				BF10110525703C3400F9E680 /* TabController.swift in Sources */,
+				BF10110125702E3C00F9E680 /* UILabel.swift in Sources */,
+				BF293C31256F36C500FE06A3 /* DirectionsCell.swift in Sources */,
 				BFB7FF292564C7CA00C0BE19 /* ViewController.swift in Sources */,
+				BF98AB432567507100821FBB /* IngredientsCell.swift in Sources */,
+				BF1011032570379900F9E680 /* ButtonWithImage.swift in Sources */,
 				BFB7FF272564C7CA00C0BE19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
